@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>lab1</title>
+<style>
+#box{ width: 100px;
+	  height:100px;
+	  border:5px solid black;
+}
+.extra{
+	   display:none;
+}
+</style>
+</head>
+
+<body>
+<div id="box">
+Box1
+</div>
+<form>
+<fieldset>
+<input type="button" id="button1" value=" change color >>" />
+</fieldset>
+</form>
+
+<div id="content">
+<p>this is a paragraph so read it that wayThere has been a problem with the page you are accessing. You may return to what you were doing by clicking the back button. If the problem persists, please contact the helpdesk.
+<a href="#" id="more">more...</a>
+</p>
+<p class="extra">
+this is a paragraph too so read it that way. There has been a problem with the page you are accessing. You may return to what you were doing by clicking the back button. If the problem persists, please contact the helpdesk.
+ <a href="#" id="less">less...</a>
+</p>
+</div>
+
+<script>
+document.getElementById("button1").onclick=function(){ 
+document.getElementById("box").style.backgroundColor="green";
+document.getElementById("box").style.borderRadius="50%";
+document.getElementById("box").style.marginLeft="25%";
+}
+
+document.getElementById("more").onclick=function(){ 
+document.querySelector(".extra").style.display="block";
+}
+
+document.getElementById("less").onclick=function(){ 
+document.querySelector(".extra").style.display="none";
+}
+</script>
+</body>
+</html>

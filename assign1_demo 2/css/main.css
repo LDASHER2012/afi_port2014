@@ -1,0 +1,7 @@
+
+h1{color:red;}
+img{border-radius:1.5em;}
+nav a{margin:.5em;display:inline-block;}
+.on {color:red; font-weight:bold;}
+.off{color:blue; font-weight:normal;}
+.hide{display:none;}

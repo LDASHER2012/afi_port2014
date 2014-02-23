@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	width:1024px;
+	margin: 0 auto;
+	background-image:url(images/meLat_bck.png);
+	background-repeat:no-repeat; 
+}
+header{
+	background-image:url(../images/dash_head.png);
+	background-repeat:no-repeat;
+	height:200px;
+}
+header li{
+	display:inline;
+	padding-top:9px;
+}
+header li .current{
+	background-color:#f4e714;
+}
+header li a{
+	 /*color: rgba(255, 199, 0, 0.3);*/
+	background-color: rgba(255, 199, 0, 0.4);
+	padding:5px;
+	color:#502f25;
+	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-radius: 5px 10px 5px 10px/10px 5px 10px 5px;
+}
+header li a:hover{text-decoration:underline;color:#fff;
+}
+
+#buttons{
+      float:left;
+	  margin-top:-15px;
+}
+
+
+body{
+	background-color:#6e4e2c;
+}
+
+aside{
+	margin:3px;
+	width:350px;
+	float:right;
+	background-color:rgba(255, 199, 0, 0.1);
+}
+aside .inner{
+	margin:10px;
+	padding:10px 20px;
+}
+aside .web{
+	color:#000000;
+}
+aside .web:hover{font-size:large;color:#000000;
+}
+blockquote{
+	padding:5px;
+}
+#albums{
+	border: solid 3px #ad9f90;
+	padding:3px;
+	color:#ccc19c;	
+}
+section{
+	margin:3px;
+	width:580px;
+	background-color: rgba(255, 199, 0, 0.1);
+	padding: 40px;
+}
+p{
+	color:#ccc19c;
+	padding: 10px;
+}
+h2{
+	color:#FF0;
+	padding: 8px;
+	margin-left: 5px;
+}
+h3{
+	color:#ccc19c;
+	padding:5px 5px;
+	margin-left: 5px;	
+}
+h3 strong{
+	background-color:#ad9f90;
+	padding:5px;
+	color:#6e4e2c;
+}
+h4{
+	border: solid 3px #ad9f90;
+	padding:3px;
+	color:#ccc19c;
+}
+#backstage {
+	background:none;
+}
+a{
+color:#FFF;
+}
+a:hover{
+color:#f26522;
+}
+.clearfix:after{
+content:".";
+display:block;
+height:0
+visibility:hidden;
+clear:both;
+}
+form{
+	width:435px;
+	margin:auto;
+	padding:3px;
+	background-color:#f4e714;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+}
+form ol li{
+	list-style:none;
+	padding:8px;
+    text-align:left;
+}
+fieldset{
+	border:none;
+	background:#502f25;
+	color:#c8c8c8;
+	padding:20px;
+	margin-bottom:10px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+legend{
+	padding-bottom:15px;
+	color:#000000;
+	text-transform:uppercase;
+}
+input{
+	  border-radius: 5px 10px 5px 10px/10px 5px 10px 5px;
+}
+textarea{
+	border-radius: 5px 10px 5px 10px/10px 5px 10px 5px;
+}
+footer{
+	color:#ccc19c;
+	background-color:#6e4e2c;
+	text-align:center;
+	clear:both;	
+}
+footer .inner{
+	margin:10px;
+	padding:10px 20px;
+}
+.hide{display:none;}
